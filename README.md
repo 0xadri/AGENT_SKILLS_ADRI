@@ -6,14 +6,17 @@ This repo is for agent skills created by me (Adri).
 
 # My Motto
 
-1. Be CLI/IDE agnostic: it's much harder to switch CLI than LLM, make sure you don't get locked in
-2. Avoid closed CLIs, favor OpenCode and Pi
-3. Use the right LLM for the job.
-   Use several LLMs for diversity of opinion.
+1. Use CLIs over IDEs.
+   IDEs are not anywhere near in term of customization, quality and performance.
+2. Be CLI/IDE agnostic.
+   It can be difficult to switch CLI, take that habit early to make sure you don't get locked in.
+3. Avoid closed CLIs, favor OpenCode and Pi.
 4. Build agent skills that are CLI agnostic.
-   Watch out: the lock-ins seem to only come from the CLIs, not the LLMs
-5. Use CLIs. IDEs are not anywhere near in term of customization.
-6. Use agent skills from others - to get started, or to research
+   Watch out: the lock-ins only come from the CLIs, not the LLMs
+5. Try agent skills from others.
+   To get started, or for exploration & discovery purpose
+6. Use the right LLM for the job.
+   Use several LLMs for diversity of opinions and expertise.
 
 # Why Use Agent Skills
 
