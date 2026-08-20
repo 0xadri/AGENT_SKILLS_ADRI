@@ -6,6 +6,32 @@ This repo is for agent skills created by me (Adri).
 
 See them all in directory [.agents](./.agents)
 
+---
+
+# FAQ
+
+## Supported CLIs?
+
+All. These agents skills are built to be CLI agnostic.
+
+## How Mature Are These Skills?
+
+They are battle tested. Usually at used at least a dozen times before being shared.
+
+## What CLI Did You Use Them Most With?
+
+OpenCode.
+
+## Will You Release More Skills?
+
+Yes. This is just a preview.
+
+## Will You Release A Plugin?
+
+Maybe.
+
+---
+
 # My Motto
 
 1. Use CLIs over IDEs.
