@@ -57,3 +57,9 @@ Situations in which you may want to create an agent skill:
 # Shout Out
 
 Shout out to all individuals and teams making their agent skills public such as Vercel, Cursor, Anthropic, Matt Pocock, Kun Chen, Addy Osmani, Theo (t3dotgg), Affaan Mustafa, and others
+
+---
+
+# You Might Also Like
+
+My AGENTS.md repo [AGENTS.md_ADRI](https://github.com/0xadri/AGENTS.md_ADRI)
