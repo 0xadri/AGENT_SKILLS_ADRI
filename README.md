@@ -6,16 +6,20 @@ This repo is for agent skills created by me (Adri).
 
 # My Motto
 
-1. Be CLI/IDE agnostic: value is in the LLM, not the CLI
+1. Be CLI/IDE agnostic: it's much harder to switch CLI than LLM, make sure you don't get locked in
 2. Avoid closed CLIs, favor OpenCode and Pi
 3. Use the right LLM for the job.
    Use several LLMs for diversity of opinion.
 4. Build agent skills that are CLI agnostic.
    Watch out: the lock-ins seem to only come from the CLIs, not the LLMs
+5. Use CLIs. IDEs are not anywhere near in term of customization.
+6. Use agent skills from others - to get started, or to research
 
 # Why Use Agent Skills
 
 Agent Skills are great to achieve consistency.
+
+Other benefits include: a task will be achieve faster by the LLM, hence cheaper, and using less context window (potentially less compacting).
 
 # When To Use Agent Skills
 
@@ -28,13 +32,13 @@ Situations in which you may want to create an agent skill:
 
 - Start small - your ego is not your amigo
 - Build many tiny skills
-- Grow slowly - use the skill a lot, build trust and experience, and only when it feels mature and stable, then iterate
 - Keep instructions concise - consider using caveman-like tool
 - Agents are verbose, if an agent helps you create the skill, instruct it to "make the smallest possible change"
-- Provide the least paths possible - this may confuse the agent
-- Provide the least loops possible
+- Grow slowly - use the skill a lot, build trust and experience, and only when it feels mature and stable, then iterate
+- KISS: Provide the least paths possible - this may confuse the agent
+- KISS: Provide the least loops possible
 - Guide the user as much as possible - highlight important info in tiny table of 1 cell if needed
-- Only use name and description in the frontmatter -> so it's supported across harnesses
+- Only use name and description in the frontmatter -> so it's supported across harnesses/CLIs
 
 # Official Specs For Agent Skills
 
