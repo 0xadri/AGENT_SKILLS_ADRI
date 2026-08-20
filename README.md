@@ -4,6 +4,8 @@ WARNING: This repo is super early stage
 
 This repo is for agent skills created by me (Adri).
 
+See them all in directory [.agents](./.agents)
+
 # My Motto
 
 1. Use CLIs over IDEs.
