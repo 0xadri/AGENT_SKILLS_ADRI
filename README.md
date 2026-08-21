@@ -16,7 +16,7 @@ All. These agents skills are built to be CLI agnostic.
 
 ## How Mature Are These Skills?
 
-They are battle tested. Usually at used at least a dozen times before being shared.
+They are battle tested. Usually used at least a dozen times before being shared.
 
 ## What CLI Did You Use Them Most With?
 
@@ -29,6 +29,10 @@ Yes. This is just a preview.
 ## Will You Release A Plugin?
 
 Maybe.
+
+## How Do I Use These?
+
+Download the repo as a zip file. Open the zip. Copy/Paste files and directories to the relevant place in your project.
 
 ---
 
@@ -50,7 +54,10 @@ Maybe.
 
 Agent Skills are great to achieve consistency.
 
-Other benefits include: a task will be achieve faster by the LLM, hence cheaper, and using less context window (potentially less compacting).
+Other benefits include:
+
+- a task will be achieve faster by the LLM, hence cheaper, and using less context window (potentially less compacting).
+- great to develop a feeling about models, you run them very often, so given a specific task you get to notice which LLMs fail and which succeed.
 
 # When To Use Agent Skills
 
@@ -70,6 +77,12 @@ Situations in which you may want to create an agent skill:
 - KISS: Provide the least loops possible
 - Guide the user as much as possible - highlight important info in tiny table of 1 cell if needed
 - Only use name and description in the frontmatter -> so it's supported across harnesses/CLIs
+
+Frontmatter:
+
+- Only use "name" and "description". The others are not cross-harness.
+- Name: add prefix of 3-4 chars to avoid conflicts and group skills by topic i.e. `cfl-` for `close-feedback-loop` (gate related skills), `sdd-` for what you know, `exe-` for skills that change files, `get-` for skills that are read-only, and so on.
+- Description: that's loaded in the cache of your cli/harness, it should be brief so your cli/harness don't get too bloated, it should have key words that should trigger an implicit call of the skill.
 
 # Official Specs For Agent Skills
 
