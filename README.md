@@ -1,10 +1,19 @@
-WARNING: This repo is super early stage
+<p align="center">
+  <strong>AGENT_SKILLS_ADRI</strong>
+</p>
 
 # Intro
 
-This repo is for agent skills created by me (Adri).
+This repo is for agent skills created by Adri.
 
 See them all in directory [.agents](./.agents)
+
+> [!WARNING]
+> This repo is super early stage. But been using these skills for a while. More below.
+
+# Quick Start
+
+Download the repo as a zip file. Open the zip. Copy/Paste files and directories to the relevant place in your project.
 
 ---
 
@@ -29,10 +38,6 @@ Yes. This is just a preview.
 ## Will You Release A Plugin?
 
 Maybe.
-
-## How Do I Use These?
-
-Download the repo as a zip file. Open the zip. Copy/Paste files and directories to the relevant place in your project.
 
 ---
 
@@ -102,3 +107,7 @@ Shout out to all individuals and teams making their agent skills public such as 
 # You Might Also Like
 
 My AGENTS.md repo [AGENTS.md_ADRI](https://github.com/0xadri/AGENTS.md_ADRI)
+
+# License
+
+Made with ♥ by [@0xadri](https://github.com/0xadri) and released under the MIT license.
