@@ -6,7 +6,7 @@
 
 This repo is for agent skills created by Adri.
 
-See them all in directory [.agents](./.agents)
+See them all in directory [.agents/skills](./.agents/skills)
 
 > [!WARNING]
 > This repo is super early stage. It will be updated, polished and enriched.
@@ -96,11 +96,11 @@ Frontmatter:
 
 ## Official Specs For Agent Skills
 
-- Agent Skills Open Standard - https://agentskills.io/
+- Agent Skills **Open Standard** - https://agentskills.io/
 - Claude Code CLI: Agent Skills - https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
 - OpenCode: Agent Skills - https://opencode.ai/docs/skills/
-- Copilot: Agent Skills - https://docs.github.com/en/copilot/concepts/agents/about-agent-skills
 - Codex: Agent Skills - https://developers.openai.com/codex/skills
+- Copilot: Agent Skills - https://docs.github.com/en/copilot/concepts/agents/about-agent-skills
 
 ## Shout Out
 
