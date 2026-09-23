@@ -2,6 +2,11 @@
 
 This guide is for humans only, to help you dear human being.
 
+> [!WARNING]
+> This agent skill is early stage.
+> But it's so good I wanted to share it anyway.
+> It will be updated, polished and enriched.
+
 ---
 
 # Recommended Workflow

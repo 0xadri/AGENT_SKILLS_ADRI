@@ -37,9 +37,11 @@ Download the repo as a zip file. Open the zip. Copy/Paste files and directories 
 
 All. These agents skills are built to be CLI agnostic.
 
-## How Mature Are These Skills?
+## How Mature Are These Agent Skills?
 
-They are battle tested. Typically used at least a dozen times.
+They are usually battle tested. Typically used at least a dozen times.
+
+However, each skill has a README with a note if it is still early stage.
 
 ## What CLI Did You Use Them Most With?
 
