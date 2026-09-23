@@ -18,6 +18,19 @@ Download the repo as a zip file. Open the zip. Copy/Paste files and directories 
 
 ---
 
+# Skills
+
+| Skill                                 | Description                                                                                            |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| `exe-caveman-style`                   | Terse, high-signal compressed prose — caveman-basic tone, remove filler, keep technical wording exact. |
+| `exe-prototype-ux`                    | Build a throwaway UX prototype with N switchable variants to answer a design question.                 |
+| `get-handoff-prompt`                  | Compact the current conversation into a handoff prompt for another agent to pick up.                   |
+| `get-response-as-markdown`            | Format and copy the last response as markdown (prettify tables, spacing) to clipboard.                 |
+| `meta-wrap-skill-as-opencode-command` | Create a `.opencode/commands/<skill>.md` slash-command wrapper for an existing skill.                  |
+| `ref-input-txt-phone-guardrails`      | Phone number input validation and review guardrails for forms, APIs, and contact flows.                |
+
+---
+
 # FAQ
 
 ## Supported CLIs?
