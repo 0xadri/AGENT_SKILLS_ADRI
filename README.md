@@ -29,6 +29,13 @@ Download the repo as a zip file. Open the zip. Copy/Paste files and directories 
 | `meta-wrap-skill-as-opencode-command` | Create a `.opencode/commands/<skill>.md` slash-command wrapper for an existing skill.                  |
 | `ref-input-txt-phone-guardrails`      | Phone number input validation and review guardrails for forms, APIs, and contact flows.                |
 
+## Skills Naming Convention (prefix)
+
+- `get-*` = read-only skills
+- `exe-*` = read-write skills
+- `meta-*` = skills about skills
+- `ref-*` = reference implementations
+
 ---
 
 # FAQ
@@ -112,10 +119,10 @@ Frontmatter:
 ## Official Specs For Agent Skills
 
 - Agent Skills **Open Standard** - https://agentskills.io/
-- Claude Code CLI: Agent Skills - https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
-- OpenCode: Agent Skills - https://opencode.ai/docs/skills/
-- Codex: Agent Skills - https://developers.openai.com/codex/skills
-- Copilot: Agent Skills - https://docs.github.com/en/copilot/concepts/agents/about-agent-skills
+- `Claude Code CLI`: Agent Skills - https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
+- `OpenCode`: Agent Skills - https://opencode.ai/docs/skills/
+- `Codex`: Agent Skills - https://developers.openai.com/codex/skills
+- `Copilot`: Agent Skills - https://docs.github.com/en/copilot/concepts/agents/about-agent-skills
 
 ## Shout Out
 
