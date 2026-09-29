@@ -50,7 +50,7 @@ Additional Benefits:
 Prompt Might Look Like:
 
 ```markdown
-`/exe/prototype-ux` 12 solutions
+`/exe-prototype-ux` 12 solutions
 user edit page is clunky it has too much content lets break it down in several parts (i.e. tabs, accordions, or else) to improve the UX, but of course it is welcome to play around with layout, sizes, animations, and any relevant UX patterns relevant to our problem and goal
 `packages/frontend/src/pages/UserEdit`
 ```
