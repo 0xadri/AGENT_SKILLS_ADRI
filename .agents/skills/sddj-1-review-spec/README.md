@@ -1,0 +1,37 @@
+# SDD Jazz
+
+SDD Jazz is a SDD framework. SDD as Specs Driven Development.
+
+Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
+
+# FAQ: Review Spec Skill
+
+- When? -> skill to run after `/sddj-0-create-spec`
+
+- What? -> Review the spec doc.
+
+- Mandatory to run? -> No. Can be skipped. But highly recommended.
+
+- Will it do any code change? -> No. Never.
+
+## Workflow
+
+1. Run skill along with file path to spec doc such as:
+
+```markdown
+/sddj-2-review-spec-adversarial [path_to_spec]
+```
+
+2. Address all points raised by the review **marked as critical**.
+
+3. Move to next SDDJ Skill
+
+## Follow Up Prompts
+
+When addressing issues found, if for whatever reason you need to create a new session, you may use the below prompt.
+
+```markdown
+I got the below critic during a review about [path_to_spec]. Can you expand and explain?
+
+[critic_here]
+```
