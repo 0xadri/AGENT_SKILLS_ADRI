@@ -1,14 +1,18 @@
 # SDD Jazz
 
-SDD Jazz is a SDD framework. SDD as Specs Driven Development.
+SDDJ stands for SDD Jazz.
+
+SDDJ is a SDD framework.
+
+SDDJ has many skills, including this very Adversarial Review Spec Skill.
 
 Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
 # FAQ: Review Spec Skill
 
-- When? -> skill to run after `/sddj-0-create-spec`
+- What? -> Review the spec doc. One the SDDJ skills.
 
-- What? -> Review the spec doc.
+- When? -> Skill to run after `/sddj-0-create-spec`
 
 - Mandatory to run? -> No. Can be skipped. But highly recommended.
 

@@ -1,3 +1,13 @@
+# SDD Jazz
+
+SDDJ stands for SDD Jazz.
+
+SDDJ is a SDD framework.
+
+SDDJ has many skills, including this very Implement Plan Skill.
+
+Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
+
 # Skill: Implement Plan
 
 What? Implements instructions in plan doc. Yes, it codes.

@@ -1,6 +1,10 @@
 # SDD Jazz
 
-SDD Jazz is a SDD framework. SDD as Specs Driven Development.
+SDDJ stands for SDD Jazz.
+
+SDDJ is a SDD framework.
+
+SDDJ has many skills, including this very Create Spec Skill.
 
 Read more in [SDDJ_INTRO.md](./SDDJ_INTRO.md)
 

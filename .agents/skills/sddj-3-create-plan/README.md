@@ -1,3 +1,23 @@
+# SDD Jazz
+
+SDDJ stands for SDD Jazz.
+
+SDDJ is a SDD framework.
+
+SDDJ has many skills, including this very Create Plan Skill.
+
+Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
+
+# FAQ: Adversarial Review Spec Skill
+
+- What? -> Adversarial review the spec doc. One the SDDJ skills.
+
+- When? -> Skill to run after `/sddj-1-review-spec`
+
+- Mandatory to run? -> No. Can be skipped. But highly recommended.
+
+- Will it do any code change? -> No. Never.
+
 # Skill: Create Plan
 
 What? Creates plan doc from spec doc.
