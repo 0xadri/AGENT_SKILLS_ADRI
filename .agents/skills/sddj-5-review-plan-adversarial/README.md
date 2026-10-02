@@ -12,7 +12,7 @@ Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
 - What? -> Adversarial reviews plan doc.
 
-- When? -> Skill to run after `/sddj-3-create-plan`
+- When? -> Skill to run after `/sddj-4-review-plan`
 
 - Mandatory to run? -> No. Can be skipped. But highly recommended.
 

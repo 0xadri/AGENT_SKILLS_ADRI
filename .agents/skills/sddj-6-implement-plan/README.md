@@ -12,7 +12,7 @@ Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
 - What? -> Implements plan doc.
 
-- When? -> Skill to run after `/sddj-3-create-plan`
+- When? -> Skill to run after `/sddj-5-review-plan-adversarial`
 
 - Mandatory to run? -> Yes.
 
