@@ -8,11 +8,15 @@ SDDJ has many skills, including this very Adversarial Review Plan Skill.
 
 Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
-# Skill: Adversarial Review Of Plan
+# FAQ: Adversarial Review Plan Skill
 
-What? Adversarial reviews the plan doc.
+- What? -> Adversarial reviews plan doc.
 
-Mandatory? No. Can be skipped. But highly recommended.
+- When? -> Skill to run after `/sddj-3-create-plan`
+
+- Mandatory to run? -> No. Can be skipped. But highly recommended.
+
+- Will it do any code change? -> No. Never.
 
 ## Workflow
 

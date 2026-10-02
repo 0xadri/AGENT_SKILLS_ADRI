@@ -12,7 +12,7 @@ Read more in [SDDJ_INTRO.md](./SDDJ_INTRO.md)
 
 - When? -> 1st skill to run when working with SSDJ.
 
-- What? -> it creates the spec doc.
+- What? -> Creates the spec doc.
 
 - Mandatory to run? -> Yes.
 

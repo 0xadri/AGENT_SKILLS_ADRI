@@ -8,21 +8,15 @@ SDDJ has many skills, including this very Create Plan Skill.
 
 Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
-# FAQ: Adversarial Review Spec Skill
+# FAQ: Create Plan Skill
 
-- What? -> Adversarial review the spec doc. One the SDDJ skills.
+- What? -> Creates plan doc based on spec doc.
 
-- When? -> Skill to run after `/sddj-1-review-spec`
+- When? -> Skill to run after `/sddj-2-review-spec-adversarial`
 
-- Mandatory to run? -> No. Can be skipped. But highly recommended.
+- Mandatory to run? -> Yes.
 
 - Will it do any code change? -> No. Never.
-
-# Skill: Create Plan
-
-What? Creates plan doc from spec doc.
-
-Mandatory? Yes.
 
 ## Workflow
 

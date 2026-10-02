@@ -10,7 +10,7 @@ Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
 # FAQ: Adversarial Review Spec Skill
 
-- What? -> Adversarial review the spec doc.
+- What? -> Adversarial reviews the spec doc.
 
 - When? -> Skill to run after `/sddj-1-review-spec`
 

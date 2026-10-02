@@ -8,11 +8,15 @@ SDDJ has many skills, including this very Implement Plan Skill.
 
 Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
-# Skill: Implement Plan
+# FAQ: Implement Plan Skill
 
-What? Implements instructions in plan doc. Yes, it codes.
+- What? -> Implements plan doc.
 
-Mandatory? Yes.
+- When? -> Skill to run after `/sddj-3-create-plan`
+
+- Mandatory to run? -> Yes.
+
+- Will it do any code change? -> Yes. Many.
 
 ## Workflow
 

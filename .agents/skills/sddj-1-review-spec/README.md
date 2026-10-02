@@ -10,7 +10,7 @@ Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
 # FAQ: Review Spec Skill
 
-- What? -> Review the spec doc. One the SDDJ skills.
+- What? -> Reviews the spec doc.
 
 - When? -> Skill to run after `/sddj-0-create-spec`
 

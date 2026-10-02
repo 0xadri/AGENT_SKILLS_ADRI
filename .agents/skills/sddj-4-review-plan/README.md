@@ -8,11 +8,15 @@ SDDJ has many skills, including this very Review Plan Skill.
 
 Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
-# Skill: Review Of Plan
+# FAQ: Review Plan Skill
 
-What? Reviews the plan doc.
+- What? -> Reviews plan doc.
 
-Mandatory? No. Can be skipped. But recommended.
+- When? -> Skill to run after `/sddj-3-create-plan`
+
+- Mandatory to run? -> No. Can be skipped. But highly recommended.
+
+- Will it do any code change? -> No. Never.
 
 ## Workflow
 

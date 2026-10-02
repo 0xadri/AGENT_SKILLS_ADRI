@@ -8,11 +8,15 @@ SDDJ has many skills, including this very Review Implementation Skill.
 
 Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
-# Skill: Review Of Implementation
+# FAQ: Review Implementation Skill
 
-What? Reviews the code implementation of a given plan doc.
+- What? -> Reviews code implementation.
 
-Mandatory? No. Can be skipped. But recommended.
+- When? -> Skill to run after `/sddj-6-implement-plan`
+
+- Mandatory to run? -> No. Can be skipped.
+
+- Will it do any code change? -> No.
 
 ## Workflow
 
@@ -23,8 +27,6 @@ Mandatory? No. Can be skipped. But recommended.
 ```
 
 2. Address all points raised by the review **marked as critical**.
-
-3. Move to next SDDJ Skill
 
 ## Follow Up Prompts
 
