@@ -57,6 +57,8 @@ Download the repo as a zip file. Open the zip. Copy/Paste files and directories 
 
 All. These agents skills are built to be CLI agnostic.
 
+However, you may need an adapter for some CLIs. Ask your LLM.
+
 ## How Mature Are These Agent Skills?
 
 They are usually battle tested. Typically used at least a dozen times.
@@ -67,9 +69,15 @@ However, each skill has a README with a note if it is still early stage.
 
 OpenCode.
 
+## What's SDDJ?
+
+It's an SDD framework I built from scratch.
+
+Read more -> [SDDJ_INTRO.md](.agents/skills/sddj-0-create-spec/SDDJ_INTRO.md)
+
 ## Will You Release More Skills?
 
-Yes. This is just a preview.
+Yes.
 
 ## Will You Release A Plugin?
 
@@ -77,11 +85,11 @@ Maybe.
 
 ## Can I Read More About Skills?
 
-Yes, in [README_MORE.md](README_MORE.md)
+Yes -> [README_MORE.md](README_MORE.md)
 
 ## Anything else AI related you published?
 
-Yes. My AGENTS.md repo [AGENTS.md_ADRI](https://github.com/0xadri/AGENTS.md_ADRI)
+Yes. My AGENTS.md repo -> [AGENTS.md_ADRI](https://github.com/0xadri/AGENTS.md_ADRI)
 
 ---
 
