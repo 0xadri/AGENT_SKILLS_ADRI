@@ -28,6 +28,18 @@ Download the repo as a zip file. Open the zip. Copy/Paste files and directories 
 | `get-response-as-markdown`            | Format and copy the last response as markdown (prettify tables, spacing) to clipboard.                 |
 | `meta-wrap-skill-as-opencode-command` | Create a `.opencode/commands/<skill>.md` slash-command wrapper for an existing skill.                  |
 | `ref-input-txt-phone-guardrails`      | Phone number input validation and review guardrails for forms, APIs, and contact flows.                |
+| `sddj-0-create-spec`                  | SDDJ: Create spec for new feature                                                                      |
+| `sddj-1-review-spec`                  | SDDJ: Review a drafted spec                                                                            |
+| `sddj-2-review-spec-adversarial`      | SDDJ: Review spec adversarially                                                                        |
+| `sddj-3-create-plan`                  | SDDJ: Create an implementation plan from a spec document.                                              |
+| `sddj-4-review-plan`                  | SDDJ: Review a drafted implementation plan                                                             |
+| `sddj-5-review-plan-adversarial`      | SDDJ: Review implementation plan adversarially                                                         |
+| `sddj-6-implement-plan`               | SDDJ: Implement a plan document                                                                        |
+| `sddj-7-review-implementation`        | SDDJ: Review code changes against an implementation plan                                               |
+| `sddj-frontmatter`                    | SDDJ: Add/Update YAML frontmatter to doc files with metadata fields                                    |
+| `sddj-imp-status`                     | SDDJ: Add/Update implementation status to a document.                                                  |
+| `sddj-read-time`                      | SDDJ: Add/Update reading time to a document.                                                           |
+| `sddj-table-of-contents`              | SDDJ: Add/Update a linked Table of Contents section to a document.                                     |
 
 ## Skills Naming Convention (prefix)
 
