@@ -1,5 +1,9 @@
 # SDD Jazz
 
+> [!WARNING]
+> This framework is battle tested. However, the doc is early stage.
+> More coming soon. Keep an eye on this page.
+
 SDDJ stands for SDD Jazz.
 
 SDDJ is a SDD framework.
