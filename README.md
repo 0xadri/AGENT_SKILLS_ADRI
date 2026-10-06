@@ -20,34 +20,36 @@ Download the repo as a zip file. Open the zip. Copy/Paste files and directories 
 
 # Skills
 
-| Skill                                                                                          | Description                                                                                            |
-| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [`exe-caveman-style`](./.agents/skills/exe-caveman-style)                                      | Terse, high-signal compressed prose — caveman-basic tone, remove filler, keep technical wording exact. |
-| [`exe-prototype-ux`](./.agents/skills/exe-prototype-ux)                                        | Build a throwaway UX prototype with N switchable variants to answer a design question.                 |
-| [`get-handoff-prompt`](./.agents/skills/get-handoff-prompt)                                    | Compact the current conversation into a handoff prompt for another agent to pick up.                   |
-| [`get-response-as-markdown`](./.agents/skills/get-response-as-markdown)                        | Format and copy the last response as markdown (prettify tables, spacing) to clipboard.                 |
-| [`meta-wrap-skill-as-opencode-command`](./.agents/skills/meta-wrap-skill-as-opencode-command)   | Create a `.opencode/commands/<skill>.md` slash-command wrapper for an existing skill.                  |
-| [`ref-input-txt-phone-guardrails`](./.agents/skills/ref-input-txt-phone-guardrails)            | Phone number input validation and review guardrails for forms, APIs, and contact flows.                |
-| [`sddj-0-create-spec`](./.agents/skills/sddj-0-create-spec)                                    | SDDJ: Create spec for new feature                                                                      |
-| [`sddj-1-review-spec`](./.agents/skills/sddj-1-review-spec)                                    | SDDJ: Review a drafted spec                                                                            |
-| [`sddj-2-review-spec-adversarial`](./.agents/skills/sddj-2-review-spec-adversarial)             | SDDJ: Review spec adversarially                                                                        |
-| [`sddj-3-create-plan`](./.agents/skills/sddj-3-create-plan)                                    | SDDJ: Create an implementation plan from a spec document.                                              |
-| [`sddj-4-review-plan`](./.agents/skills/sddj-4-review-plan)                                    | SDDJ: Review a drafted implementation plan                                                             |
-| [`sddj-5-review-plan-adversarial`](./.agents/skills/sddj-5-review-plan-adversarial)             | SDDJ: Review implementation plan adversarially                                                         |
-| [`sddj-6-implement-plan`](./.agents/skills/sddj-6-implement-plan)                              | SDDJ: Implement a plan document                                                                        |
-| [`sddj-7-review-implementation`](./.agents/skills/sddj-7-review-implementation)                 | SDDJ: Review code changes against an implementation plan                                               |
-| [`sddj-frontmatter`](./.agents/skills/sddj-frontmatter)                                        | SDDJ: Add/Update YAML frontmatter to doc files with metadata fields                                    |
-| [`sddj-imp-status`](./.agents/skills/sddj-imp-status)                                          | SDDJ: Add/Update implementation status to a document.                                                  |
-| [`sddj-read-time`](./.agents/skills/sddj-read-time)                                            | SDDJ: Add/Update reading time to a document.                                                           |
-| [`sddj-table-of-contents`](./.agents/skills/sddj-table-of-contents)                            | SDDJ: Add/Update a linked Table of Contents section to a document.                                     |
-
-## Skills Naming Convention (prefix)
+## Naming Convention (prefix)
 
 - `get-*` = read-only skills
 - `exe-*` = read-write skills
 - `meta-*` = skills about skills
-- `ref-*` = reference implementations
-- `sddj-*` = skill part of SDDJ framework
+- `ref-*` = skills for reference implementations
+- `sddj-*` = skills part of SDDJ framework
+
+## Full List
+
+| Skill                                                                                         | Description                                                                                            |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| [`exe-caveman-style`](./.agents/skills/exe-caveman-style)                                     | Terse, high-signal compressed prose — caveman-basic tone, remove filler, keep technical wording exact. |
+| [`exe-prototype-ux`](./.agents/skills/exe-prototype-ux)                                       | Build a throwaway UX prototype with N switchable variants to answer a design question.                 |
+| [`get-handoff-prompt`](./.agents/skills/get-handoff-prompt)                                   | Compact the current conversation into a handoff prompt for another agent to pick up.                   |
+| [`get-response-as-markdown`](./.agents/skills/get-response-as-markdown)                       | Format and copy the last response as markdown (prettify tables, spacing) to clipboard.                 |
+| [`meta-wrap-skill-as-opencode-command`](./.agents/skills/meta-wrap-skill-as-opencode-command) | Create a `.opencode/commands/<skill>.md` slash-command wrapper for an existing skill.                  |
+| [`ref-input-txt-phone-guardrails`](./.agents/skills/ref-input-txt-phone-guardrails)           | Phone number input validation and review guardrails for forms, APIs, and contact flows.                |
+| [`sddj-0-create-spec`](./.agents/skills/sddj-0-create-spec)                                   | SDDJ: Create spec for new feature                                                                      |
+| [`sddj-1-review-spec`](./.agents/skills/sddj-1-review-spec)                                   | SDDJ: Review a drafted spec                                                                            |
+| [`sddj-2-review-spec-adversarial`](./.agents/skills/sddj-2-review-spec-adversarial)           | SDDJ: Review spec adversarially                                                                        |
+| [`sddj-3-create-plan`](./.agents/skills/sddj-3-create-plan)                                   | SDDJ: Create an implementation plan from a spec document.                                              |
+| [`sddj-4-review-plan`](./.agents/skills/sddj-4-review-plan)                                   | SDDJ: Review a drafted implementation plan                                                             |
+| [`sddj-5-review-plan-adversarial`](./.agents/skills/sddj-5-review-plan-adversarial)           | SDDJ: Review implementation plan adversarially                                                         |
+| [`sddj-6-implement-plan`](./.agents/skills/sddj-6-implement-plan)                             | SDDJ: Implement a plan document                                                                        |
+| [`sddj-7-review-implementation`](./.agents/skills/sddj-7-review-implementation)               | SDDJ: Review code changes against an implementation plan                                               |
+| [`sddj-frontmatter`](./.agents/skills/sddj-frontmatter)                                       | SDDJ: Add/Update YAML frontmatter to doc files with metadata fields                                    |
+| [`sddj-imp-status`](./.agents/skills/sddj-imp-status)                                         | SDDJ: Add/Update implementation status to a document.                                                  |
+| [`sddj-read-time`](./.agents/skills/sddj-read-time)                                           | SDDJ: Add/Update reading time to a document.                                                           |
+| [`sddj-table-of-contents`](./.agents/skills/sddj-table-of-contents)                           | SDDJ: Add/Update a linked Table of Contents section to a document.                                     |
 
 ---
 
