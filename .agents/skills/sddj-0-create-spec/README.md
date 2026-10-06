@@ -14,15 +14,23 @@ Read more in [SDDJ_INTRO.md](./SDDJ_INTRO.md)
 
 # FAQ: Create Spec Skill
 
-- When? -> 1st skill to run when working with SSDJ.
+## When?
 
-- What? -> Creates the spec doc.
+First skill to run when working with SSDJ.
 
-- Mandatory to run? -> Yes.
+## What?
 
-- Will it do any code change? -> No. Never.
+Writes a spec document for new feature - structure includes requirements, technical design, UI/UX, edge cases, and risks.
 
-## Workflow
+## Mandatory to run?
+
+Yes.
+
+## Will it do any code change?
+
+No. Never.
+
+# Workflow: Create Spec Skill
 
 1. Run this skill along with description such as:
 

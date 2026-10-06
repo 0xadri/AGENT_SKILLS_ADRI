@@ -10,10 +10,18 @@ Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
 # FAQ: Table Of Contents Skill
 
-- What? -> Utility that adds `a table of contents` to doc.
+## When?
 
-- When? -> Actually you don't call it manually. Gets called by other SSDJ skills.
+Actually you don't call it manually. Gets called by other SSDJ skills.
 
-- Mandatory to run? -> No.
+## What?
 
-- Will it do any code change? -> No.
+Utility. Adds/Updates a linked `Table of Contents` section to a document.
+
+## Mandatory to run?
+
+No.
+
+## Will it do any code change?
+
+No.

@@ -10,15 +10,23 @@ Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
 # FAQ: Review Plan Skill
 
-- What? -> Reviews plan doc.
+## When?
 
-- When? -> Skill to run after `/sddj-3-create-plan`
+Skill to run after `/sddj-3-create-plan`
 
-- Mandatory to run? -> No. Can be skipped. But highly recommended.
+## What?
 
-- Will it do any code change? -> No. Never.
+Reviews a drafted implementation plan document — checks structure, completeness, guidelines compliance, and cross-checks coverage against the source spec.
 
-## Workflow
+## Mandatory to run?
+
+No. Can be skipped. But highly recommended.
+
+## Will it do any code change?
+
+No. Never.
+
+# Workflow: Review Plan Skill
 
 1. Run skill along with file path to plan doc such as:
 

@@ -10,15 +10,23 @@ Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
 # FAQ: Adversarial Review Plan Skill
 
-- What? -> Adversarial reviews plan doc.
+## When?
 
-- When? -> Skill to run after `/sddj-4-review-plan`
+Skill to run after `/sddj-4-review-plan`
 
-- Mandatory to run? -> No. Can be skipped. But highly recommended.
+## What?
 
-- Will it do any code change? -> No. Never.
+Review implementation plan document adversarially — attack execution risk, sequencing gaps, hidden scope, policy conflicts, and false confidence.
 
-## Workflow
+## Mandatory to run?
+
+No. Can be skipped. But highly recommended.
+
+## Will it do any code change?
+
+No. Never.
+
+# Workflow: Adversarial Review Plan Skill
 
 1. Run skill along with file path to plan doc such as:
 

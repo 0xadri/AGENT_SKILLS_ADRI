@@ -10,10 +10,18 @@ Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
 # FAQ: Frontmatter Skill
 
-- What? -> Utility that adds `implementation status` to doc.
+## When?
 
-- When? -> Actually you don't call it manually. Gets called by other SSDJ skills.
+Actually you don't call it manually. Gets called by other SSDJ skills.
 
-- Mandatory to run? -> No.
+## What?
 
-- Will it do any code change? -> No.
+Utility. Adds/Updates `implementation status` to a document.
+
+## Mandatory to run?
+
+No.
+
+## Will it do any code change?
+
+No.

@@ -10,15 +10,23 @@ Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
 # FAQ: Implement Plan Skill
 
-- What? -> Implements plan doc.
+## When?
 
-- When? -> Skill to run after `/sddj-5-review-plan-adversarial`
+Skill to run after `/sddj-5-review-plan-adversarial`
 
-- Mandatory to run? -> Yes.
+## What?
 
-- Will it do any code change? -> Yes. Many.
+Implements a plan document step by step, sync status across plan and spec, and archive both when complete.
 
-## Workflow
+## Mandatory to run?
+
+Yes.
+
+## Will it do any code change?
+
+Yes. Many.
+
+# Workflow: Implement Plan Skill
 
 1. Run skill along with file path to plan doc such as:
 

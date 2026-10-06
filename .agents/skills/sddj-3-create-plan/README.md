@@ -10,15 +10,23 @@ Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
 # FAQ: Create Plan Skill
 
-- What? -> Creates plan doc based on spec doc.
+## When?
 
-- When? -> Skill to run after `/sddj-2-review-spec-adversarial`
+Skill to run after `/sddj-2-review-spec-adversarial`
 
-- Mandatory to run? -> Yes.
+## What?
 
-- Will it do any code change? -> No. Never.
+Creates an implementation plan document from a spec document.
 
-## Workflow
+## Mandatory to run?
+
+Yes.
+
+## Will it do any code change?
+
+No. Never.
+
+# Workflow: Create Plan Skill
 
 1. Run skill along with description such as: `/sddj-3-create-plan [path_to_spec]`
 

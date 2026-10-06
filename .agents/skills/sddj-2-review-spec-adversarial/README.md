@@ -10,15 +10,23 @@ Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
 # FAQ: Adversarial Review Spec Skill
 
-- What? -> Adversarial reviews the spec doc.
+## When?
 
-- When? -> Skill to run after `/sddj-1-review-spec`
+Skill to run after `/sddj-1-review-spec`
 
-- Mandatory to run? -> No. Can be skipped. But highly recommended.
+## What?
 
-- Will it do any code change? -> No. Never.
+Reviews spec document adversarially — attacks ambiguity, policy conflicts, rollout risks, and codebase drift before implementation.
 
-## Workflow
+## Mandatory to run?
+
+No. Can be skipped. But highly recommended.
+
+## Will it do any code change?
+
+No. Never.
+
+# Workflow: Adversarial Review Spec Skill
 
 1. Run skill along with file path to spec doc such as:
 

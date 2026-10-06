@@ -10,15 +10,23 @@ Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
 # FAQ: Review Implementation Skill
 
-- What? -> Reviews code implementation.
+## When?
 
-- When? -> Skill to run after `/sddj-6-implement-plan`
+Skill to run after `/sddj-6-implement-plan`
 
-- Mandatory to run? -> No. Can be skipped.
+## What?
 
-- Will it do any code change? -> No.
+Reviews code changes against an implementation plan — checks plan compliance, CFL verification, and checklist status.
 
-## Workflow
+## Mandatory to run?
+
+No. Can be skipped.
+
+## Will it do any code change?
+
+No.
+
+# Workflow: Review Implementation Skill
 
 1. Run skill along with file path to plan doc such as:
 

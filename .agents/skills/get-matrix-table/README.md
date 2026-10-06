@@ -20,11 +20,17 @@ Benefits:
 
 # FAQ: Matrix Table Skill
 
-- What? -> Creates a matrix table analyzing codebase or docs to answer a specific question.
+## When?
 
-- When? -> Whenever you want to go through all items of a kind and see which ones satisfy what. Trigger on "matrix table", "comparison table", "audit table", "inventory table", "which ones", "go through all".
+Whenever you want to go through all items of a kind and see which ones satisfy what. Trigger on "matrix table", "comparison table", "audit table", "inventory table", "which ones", "go through all".
 
-- Will it do any code change? -> No. Never. Output goes to chat only.
+## What?
+
+Creates a matrix table analyzing codebase or docs to answer a specific question.
+
+## Will it do any code change?
+
+No. Never. Output goes to chat only.
 
 ## Example Prompt
 

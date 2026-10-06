@@ -9,8 +9,8 @@ This repo is for agent skills created by Adri.
 See them all in directory [.agents/skills](./.agents/skills)
 
 > [!WARNING]
-> This repo is super early stage. It will be updated, polished and enriched.
-> That being said, the skills currently shared are solid. More below.
+> This repo is early stage. It will be updated, polished and enriched.
+> That being said, these skills are solid.
 
 ## Quick Start
 

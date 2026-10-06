@@ -10,15 +10,23 @@ Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
 # FAQ: Review Spec Skill
 
-- What? -> Reviews the spec doc.
+## When?
 
-- When? -> Skill to run after `/sddj-0-create-spec`
+Skill to run after `/sddj-0-create-spec`
 
-- Mandatory to run? -> No. Can be skipped. But highly recommended.
+## What?
 
-- Will it do any code change? -> No. Never.
+Reviews the drafted spec document — checks structure, completeness, guidelines compliance, and verifies technical claims against the actual codebase.
 
-## Workflow
+## Mandatory to run?
+
+No. Can be skipped. But highly recommended.
+
+## Will it do any code change?
+
+No. Never.
+
+# Workflow: Review Spec Skill
 
 1. Run skill along with file path to spec doc such as:
 
