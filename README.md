@@ -34,6 +34,7 @@ Download the repo as a zip file. Open the zip. Copy/Paste files and directories 
 | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | [`exe-caveman-style`](./.agents/skills/exe-caveman-style)                                     | Terse, high-signal compressed prose — caveman-basic tone, remove filler, keep technical wording exact. |
 | [`exe-prototype-ux`](./.agents/skills/exe-prototype-ux)                                       | Build a throwaway UX prototype with N switchable variants to answer a design question.                 |
+| [`get-compare-llms`](./.agents/skills/get-compare-llms)                                       | Compare LLMs for coding web apps and rank them with cost estimates.                                    |
 | [`get-handoff-prompt`](./.agents/skills/get-handoff-prompt)                                   | Compact the current conversation into a handoff prompt for another agent to pick up.                   |
 | [`get-response-as-markdown`](./.agents/skills/get-response-as-markdown)                       | Format and copy the last response as markdown (prettify tables, spacing) to clipboard.                 |
 | [`meta-wrap-skill-as-opencode-command`](./.agents/skills/meta-wrap-skill-as-opencode-command) | Create a `.opencode/commands/<skill>.md` slash-command wrapper for an existing skill.                  |
