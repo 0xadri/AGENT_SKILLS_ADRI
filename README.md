@@ -107,7 +107,7 @@ Yes. My AGENTS.md repo -> [AGENTS.md_ADRI](https://github.com/0xadri/AGENTS.md_A
 
 # Shout Out
 
-Shout out to all individuals, teams and companies making their agent skills public such as Vercel, Cursor, Anthropic, Matt Pocock, Kun Chen, Addy Osmani, Theo (t3dotgg), Affaan Mustafa, and others.
+Shout out to all individuals, teams and companies making their agent skills public such as `Vercel`, `Cursor`, `Anthropic`, `Matt Pocock`, `Kun Chen`, `Addy Osmani`, `Theo` (t3dotgg), `Affaan Mustafa`, `BMAD`, `Spec Kit`, and others.
 
 ---
 
