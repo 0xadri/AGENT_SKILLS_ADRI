@@ -3,6 +3,16 @@ name: sddj-7-review-implementation
 description: Review code changes (committed or uncommitted) against an implementation plan. Checks plan compliance, CFL verification, checklist status, and optionally code quality. Offers to archive the plan and spec when the review passes. Trigger when user says "review implementation", "review changes against plan", "check implementation", or "review impl".
 ---
 
+**PREFLIGHT — MANDATORY, run before anything else.** Display exactly this message at the start of the skill (no confirmation needed, always shown):
+
+| RECOMMENDED                                                                                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------- |
+| ⚠️ LLM ⚠️ `Sonnet`/`GPT-5.4` or above - less smart models such as `Haiku` or `GPT-5.3` might struggle to follow instructions     |
+| ⚠️ NEW SESSION ⚠️ Make sure you started a new session before executing this skill                                                |
+| ⚠️ MULTIPLE RUNS+LLMs ⚠️ You can run this skill several times on a single implementation. Best if each time with a different LLM |
+
+Do not skip or alter this message. Proceed directly to the steps below.
+
 If $ARGUMENTS is empty, use `AskUserQuestion` to ask: "Which plan file should I review the implementation against? (e.g. `docs/plans/feature_name_plan.md`)"
 
 ## Guidelines

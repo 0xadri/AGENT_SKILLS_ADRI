@@ -3,6 +3,16 @@ name: sddj-1-review-spec
 description: Review a drafted spec — checks structure, completeness, guidelines compliance, and verifies technical claims against the actual codebase
 ---
 
+**PREFLIGHT — MANDATORY, run before anything else.** Display exactly this message at the start of the skill (no confirmation needed, always shown):
+
+| RECOMMENDED |
+|---|
+| ⚠️ LLM ⚠️ `Sonnet`/`GPT-5.4` or above - less smart models such as `Haiku` or `GPT-5.3` might struggle to follow instructions |
+| ⚠️ NEW SESSION ⚠️ Make sure you started a new session before executing this skill |
+| ⚠️ MULTIPLE RUNS+LLMs ⚠️ You can run this skill several times on a single doc. Best if each time with a different LLM |
+
+Do not skip or alter this message. Proceed directly to the steps below.
+
 If $ARGUMENTS is empty, use `AskUserQuestion` to ask: "Which spec file should I review? (e.g. `docs/plans/feature-name_spec.md`)"
 
 Given the spec at: $ARGUMENTS

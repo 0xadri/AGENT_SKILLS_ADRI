@@ -3,6 +3,16 @@ name: sddj-6-implement-plan
 description: Implement a plan document step by step, then sync implementation status across the plan and spec, and archive both when complete. Trigger when user says "implement plan", "execute plan", "follow the plan", or "mark plan done".
 ---
 
+**PREFLIGHT — MANDATORY, run before anything else.** Display exactly this message at the start of the skill (no confirmation needed, always shown):
+
+| RECOMMENDED |
+|---|
+| ⚠️ LLM ⚠️ `Sonnet`/`GPT-5.4` or above - less smart models such as `Haiku` or `GPT-5.3` might struggle to follow instructions |
+| ⚠️ NEW SESSION ⚠️ Make sure you started a new session before executing this skill |
+| ⚠️ MULTIPLE SESSIONS PER PLAN ⚠️ Progress is tracked in a checklist. So if you're close to run out of context, interrupt in a convenient place and start a new session for the next steps/phases. |
+
+Do not skip or alter this message. Proceed directly to the steps below.
+
 ## Guidelines
 
 - Always resolve the plan path before doing anything else.

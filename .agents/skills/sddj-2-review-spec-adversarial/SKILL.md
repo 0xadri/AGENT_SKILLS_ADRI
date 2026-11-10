@@ -3,6 +3,16 @@ name: sddj-2-review-spec-adversarial
 description: Review spec adversarially — attack ambiguity, policy conflicts, rollout risks, and codebase drift before implementation. Use when user asks for adversarial spec review, hostile review, spec gate, or pre-implementation risk review.
 ---
 
+**PREFLIGHT — MANDATORY, run before anything else.** Display exactly this message at the start of the skill (no confirmation needed, always shown):
+
+| RECOMMENDED |
+|---|
+| ⚠️ LLM ⚠️ `Sonnet`/`GPT-5.4` or above - less smart models such as `Haiku` or `GPT-5.3` might struggle to follow instructions |
+| ⚠️ NEW SESSION ⚠️ Make sure you started a new session before executing this skill |
+| ⚠️ MULTIPLE RUNS+LLMs ⚠️ You can run this skill several times on a single doc. Best if each time with a different LLM |
+
+Do not skip or alter this message. Proceed directly to the steps below.
+
 If $ARGUMENTS is empty, use `AskUserQuestion` to ask: "Which spec file should I review adversarially? (e.g. `docs/plans/feature-name_spec.md`)"
 
 Given spec at: $ARGUMENTS

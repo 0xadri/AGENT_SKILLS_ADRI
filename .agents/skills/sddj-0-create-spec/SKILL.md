@@ -3,6 +3,15 @@ name: sddj-0-create-spec
 description: Create spec for new feature — writes a structured spec doc covering requirements, technical design, UI/UX, edge cases, and risks
 ---
 
+**PREFLIGHT — MANDATORY, run before anything else.** Display exactly this message at the start of the skill (no confirmation needed, always shown):
+
+| RECOMMENDED |
+|---|
+| ⚠️ LLM ⚠️ `Sonnet`/`GPT-5.4` or above - less smart models such as `Haiku` or `GPT-5.3` might struggle to follow instructions |
+| ⚠️ NEW SESSION ⚠️ Make sure you started a new session before executing this skill |
+
+Do not skip or alter this message. Proceed directly to the steps below.
+
 If $ARGUMENTS is empty, use `AskUserQuestion` to ask: "What feature would you like to spec out?" before proceeding.
 
 Given the following feature: $ARGUMENTS

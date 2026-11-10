@@ -3,6 +3,16 @@ name: sddj-4-review-plan
 description: Review a drafted implementation plan — checks structure, completeness, guidelines compliance, verifies technical claims against the codebase, and cross-checks coverage against the source spec. Trigger when user says "review plan", "check plan", "plan review", or "review this plan".
 ---
 
+**PREFLIGHT — MANDATORY, run before anything else.** Display exactly this message at the start of the skill (no confirmation needed, always shown):
+
+| RECOMMENDED                                                                                                                  |
+| ---------------------------------------------------------------------------------------------------------------------------- |
+| ⚠️ LLM ⚠️ `Sonnet`/`GPT-5.4` or above - less smart models such as `Haiku` or `GPT-5.3` might struggle to follow instructions |
+| ⚠️ NEW SESSION ⚠️ Make sure you started a new session before executing this skill                                            |
+| ⚠️ MULTIPLE RUNS+LLMs ⚠️ You can run this skill several times on a single doc. Best if each time with a different LLM        |
+
+Do not skip or alter this message. Proceed directly to the steps below.
+
 If $ARGUMENTS is empty, use `AskUserQuestion` to ask: "Which plan file should I review? (e.g. `docs/plans/feature_name_plan.md`)"
 
 Given the plan at: $ARGUMENTS
