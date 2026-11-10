@@ -26,6 +26,14 @@ Yes.
 
 Yes. Many.
 
+## If I run out of context, can I run interrupt the skill and restart it in a new session?
+
+Yes. Progress is tracked in a checklist.
+
+So if you run out of context, interrupt in a convenient place and start a new session for the next steps/phases.
+
+When interrupting, you can use `get-handoff-prompt` skill to generate the handoff prompt for the fresh session.
+
 # Workflow: Implement Plan Skill
 
 1. Run skill along with file path to plan doc such as:
