@@ -1,7 +1,15 @@
 # What's SDD aka Spec Driven Development?
 
 - The essence of SDD = an advanced plan mode
-- SDD is probably what you kind of already do: create plan → review plan → implement plan → review implementation
+- SDD is probably what you kind of already do: `create plan` → `review plan` → `implement plan` → `review implementation`
+
+# Spec As A Frist Class Citizen
+
+Some go as far as saying "Specs are the new code, LLMs are the new compilers".
+
+The vision is that if you have good specs, your LLM can implement them in any programming language.
+
+It is best explained by a staff of Sean Grove of OpenAI [youtube.com/watch?v=8rABwKRsec4](https://www.youtube.com/watch?v=8rABwKRsec4)
 
 # Typical Dev Journey
 
