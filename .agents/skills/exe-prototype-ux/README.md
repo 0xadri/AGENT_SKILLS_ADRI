@@ -2,11 +2,6 @@
 
 This guide is for humans only, to help you dear human being.
 
-> [!WARNING]
-> This agent skill is early stage.
-> But it's so good I wanted to share it anyway.
-> It will be updated, polished and enriched.
-
 ---
 
 # Why Use This Skill?
@@ -85,12 +80,12 @@ For solution 13 only:
 - This code backup must be self contained.
 - The spec must outlive the prototype: NEVER reference prototype files or anything created during prototyping — they will be deleted.
 - Referencing permanent project files is fine.
-- Put it all under `docs/plans/tmp_prototype_ux.md`
+- Put it all under `docs/plans/tmp_proto_ux_spec.md`
 ```
 
 ## 4. Delete Throwaway Code
 
-Delete all files created in previous steps except `docs/plans/tmp_prototype_ux.md`
+Delete all files created in previous steps except `docs/plans/tmp_proto_ux_spec.md`
 
 ## 5. Rename Specs And Code
 
@@ -99,7 +94,7 @@ Optional - useful if you want to commit it.
 Prompt Might Look Like:
 
 ```markdown
-Rename `docs/plans/tmp_prototype_ux.md` to `docs/plans/FEATURE_NAME_spec.md`
+Rename `docs/plans/tmp_proto_ux_spec.md` to `docs/plans/FEATURE_NAME_proto_ux_spec.md`
 ```
 
 ## 6. Use Prompt And Specs To Create Production Ready Code
@@ -107,15 +102,22 @@ Rename `docs/plans/tmp_prototype_ux.md` to `docs/plans/FEATURE_NAME_spec.md`
 Prompt Might Look Like:
 
 ```markdown
-`docs/plans/tmp_prototype_ux.md` is the extracted specs of a UX prototype implemented with throwaway code.
+`docs/plans/tmp_proto_ux_spec.md` is the extracted UX Spec of a prototype implemented with throwaway code.
 Implement the production ready code following this project's code guidelines and best practices such as tests, error handling, abstractions. Look at AGENTS.md for more.
-If the spec references prototype code, treat it as informative only — throwaway code, not a model to copy. Rebuild properly.
+If the UX Spec references prototype code, treat it as informative only — throwaway code, not a model to copy. Rebuild properly.
+```
+
+Or if you need to first align the initial draft you made of spec/plan:
+
+```markdown
+`docs/plans/tmp_proto_ux_spec.md` is the extracted UX Spec of a UX prototype implemented with throwaway code.
+Fully align the spec/plan with it `docs/plans/FEATURE_NAME_plan.md`
 ```
 
 Or if you want to first do a plan:
 
 ```markdown
-`docs/plans/tmp_prototype_ux.md` is the extracted specs of a UX prototype implemented with throwaway code.
+`docs/plans/tmp_proto_ux_spec.md` is the extracted UX Spec of a prototype implemented with throwaway code.
 Create a plan for it.
-If the spec references prototype code, treat it as informative only — throwaway code, not a model to copy. Rebuild properly.
+If the UX Spec references prototype code, treat it as informative only — throwaway code, not a model to copy. Rebuild properly.
 ```
