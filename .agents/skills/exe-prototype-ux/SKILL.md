@@ -60,17 +60,22 @@ Never proceed without explicit confirmation.
   Allow user to confirm, pick a different tier, or provide additional focus instructions.
 - If no keyword detected:
   Call `AskUserQuestion` asking user to calibrate variance scope.
-  Recommend `Macro (Structural)` as default.
+  Infer the best-fit tier from the problem description itself.
+  Signal examples: "polish", "styling", "typography" → `Micro`; "density", "layout", "cards vs table" → `Meso`; "rethink", "restructure", "flow" → `Macro`.
+  Recommend `Macro (Structural)` only as fallback when the ask is genuinely ambiguous.
 
 Offer options:
 
-1. `Macro (Structural UX patterns) (Recommended)` — Radically different containers and workflows (tabs vs wizard vs master-detail vs drawer).
+1. `Macro (Structural UX patterns)` — Radically different containers and workflows (tabs vs wizard vs master-detail vs drawer).
    Best for broad early exploration.
 2. `Meso (Layout & Information Architecture)` — Same container, different density, hierarchy, and component types (cards vs table vs timeline).
    Best when container is fixed.
 3. `Micro (Visual & Styling polish)` — Same layout, different typography, spacing, contrast, colors, micro-interactions.
    Best for polish passes.
 4. `Custom focus` — User specifies exact axis to explore (e.g. only test search filters or mobile density).
+
+Append `(Recommended)` to exactly one option — the one matching the confirmed or inferred tier.
+Never hardcode it to a fixed tier.
 
 With 7+ variants, similarity creep happens fast.
 Assign each variant a distinct archetype matching the chosen calibration tier.
