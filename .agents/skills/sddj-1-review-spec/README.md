@@ -4,7 +4,7 @@ SDDJ stands for SDD Jazz.
 
 SDDJ is a SDD framework.
 
-SDDJ has many skills, including this very Adversarial Review Spec Skill.
+SDDJ has many skills, including this very Review Spec Skill.
 
 Read more in [SDDJ_INTRO.md](../sddj-0-create-spec/SDDJ_INTRO.md)
 
@@ -31,7 +31,7 @@ No. Never.
 1. Run skill along with file path to spec doc such as:
 
 ```markdown
-/sddj-2-review-spec-adversarial [path_to_spec]
+/sddj-2-review-spec [path_to_spec]
 ```
 
 2. Address all points raised by the review **marked as critical**.
